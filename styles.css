@@ -1,0 +1,85 @@
+ .header {
+    margin-top: 100px;
+    text-align: center;
+}
+
+form {
+    text-align: center;
+} 
+
+table {
+    width: 50%;
+    margin: 30px auto;
+    border-collapse: collapse;
+}
+
+.tr {
+    border-bottom: 2px solid #cbcbcb;
+}
+
+.trTop {
+    border-top: 2px solid #cbcbcb;
+    border-bottom: 2px solid #cbcbcb;
+}
+
+th {
+    padding: 20px 0px !important;
+    font-size: 17px;
+    text-align: left;
+}
+
+.addInput{
+    color: white;
+    background: lightgreen;
+    padding: 1px 6px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.delete{
+    color: white;
+    background: #a52a2a;
+    padding: 1px 6px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.edit{
+    color: white;
+    background: #00ddff;
+    padding: 1px 6px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.ud {
+    text-align: right;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button:hover {background-color: #3e8e41}
+  
+  .button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  .icon_edit {
+    max-width: 20px;
+    max-height: 20px;
+}
